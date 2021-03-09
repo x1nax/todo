@@ -1,0 +1,10 @@
+.input {
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+}
+
+.empty {
+    background-color: red;
+}
+

@@ -1,0 +1,21 @@
+.list {
+    list-style-type: none;
+    margin-bottom: 17px;
+    margin-top: 0;
+    padding-left: 0;
+    width: 100%;
+}
+
+.item {
+    font-size: 35px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    background-image: linear-gradient(#ccc 1px, transparent 1px);
+    background-size: 100% 98%;
+}
+
+.hidden {
+    display: none;
+}

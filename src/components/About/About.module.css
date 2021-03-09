@@ -1,0 +1,56 @@
+.bio{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.bioText{
+  font-size: 20px;
+}
+
+.ava {
+  border-radius: 50%;
+  width: 40%;
+}
+
+.repsList{
+  text-align: center;
+  display: FLEX;
+  flex-flow: column;
+  align-items: center;
+}
+
+.links{
+  text-decoration: none;
+  color: black;
+  font-size: 25px;
+}
+
+.links:hover{
+  color: blue;
+  transition: .7s;
+}
+
+.reps_title{
+  font-size: 30px;
+}
+
+.reps{
+  border: 1px solid black;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-around ;
+  background-color: lightgray;
+  width: 80%;
+}
+
+.langs {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.isHidden {
+  color: red;
+}

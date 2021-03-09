@@ -1,0 +1,13 @@
+.done {
+    text-decoration: line-through black;
+    color: grey;
+}
+
+.empty {
+    display: none;
+}
+
+.text {
+    color: red;
+    font-size: 10px;
+}

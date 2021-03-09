@@ -1,0 +1,39 @@
+.main {
+display: flex;
+flex-flow: column;
+}
+
+.title{
+  font-family: 'Caveat';
+  text-align: center;
+}
+.wrap{
+  width: 100%;
+}
+
+.link {
+  width: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-decoration: none;
+  color: black;
+  font-family: 'Caveat';
+  font-size: 22px;
+}
+
+.link:hover{
+  color: blue;
+  transition: .7s;
+}
+
+.socialLink{
+  width: 25%;
+  padding-left: 25px;
+  padding-bottom: 10px;
+}
+
+.socialLink:hover{
+  width: 30%;
+  transition: .7s;
+}
