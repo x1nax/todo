@@ -30,7 +30,6 @@ const App = () =>
           <Route path='/todo' component={Todo} />
           <Route path='/contacts' component={Contacts} />
         </Card>
-        <a href="https://webheroschool.ru/" className={styles.whs}><img src={whs} className={styles.socialLink} alt="whs"></img></a>
       </div>  
     </div>
   </Router>);
